@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.sub-nav-bg{
+    background-color: #770181;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.f-all{
+ font-family: 'Montserrat', sans-serif;;
+}
+.nav-link{
+     color: black;
+}
+.nav-link:hover{
+    color: #FF2B51;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overall{
+    
+        position: relative;
+        text-align: center;
+        color: white;
+      
+}
+.contact-box {
+    background-color: #fff;
+    max-width: 800px;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 0px 10px 10px  0px rgba(93, 93, 92, 0.2);
+}
+.bpa-form-input {
+    width: 100%;
+    height: 40px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #770181;
+    color: #333;
+}
+
+.bpa-textarea {
+    width: 100%;
+    padding-top: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #770181 ;
+}
+
+
+.bpa-submit-btn {
+    width: 150px;
+    height: 50px;
+    background-color:  #770181;
+    color: #fff;
+    border: 1px solid #770181 ;
+    border-radius: 3px;
+}
+.para{
+    padding: 10px 10px;
+    text-align: start;
+    color: red;
+}
+.login:hover{
+    background-color: #770181;
+    color: white;
+}
+.footer-section {
+    background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+  }
+  
+  .footer-top-shape {
+    position: absolute;
+    top: -60px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff00a6;
+    border-radius: 50%;
+    width: 120px; 
+    height: 120px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+.footer-image {
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+}
+  
+.footer-section .container {
+    position: relative;
+    z-index: 2;
+}
+  
+.footer-section .footer-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+  
+.footer-section .footer-description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+  
+.footer-section .footer-text {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+  
+.footer-section .footer-social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+  
+.footer-section .footer-social-icons a:hover {
+    color: #d1c4e9;
+}
+  
+.footer-section .footer-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+  
+.footer-section .footer-links {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-section .footer-links li {
+    margin-bottom: 10px;
+}
+  
+.footer-section .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.footer-section .footer-links a:hover {
+    color: #d1c4e9;
+}
+  
+.footer-section .footer-app-links img {
+    width: 150px;
+    margin-right: 10px;
+}
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .navbar:hover {
+    background-color: #f8f9fa;
+  }
+
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #770181;
+  }
+
+  .btn-primary {
+    background-color: #770181;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .btn-primary:hover {
+    background-color: #FF2B51;
+    color: white;
+  }
+  @media (max-width: 992px) {
+    .navbar-brand {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      text-align: center;
+    }
+
+    .btn-primary {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  .centered {
+    text-align: center; /* Center text */
+}
+
+@media (max-width: 576px) { /* For col-sm screens */
+    .centered h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+        line-height: 1.3; /* Ensure good spacing */
+    }
+    
+    .centered p {
+        font-size: 0.9rem; /* Smaller font size for mobile */
+        padding: 0 10px; /* Add horizontal padding to avoid overflow */
+        margin: 0; /* Remove default margin */
+    }
+    
+    img {
+        max-width: 100%; /* Ensure image is responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+@media (max-width: 576px) {
+  .overall {
+      padding: 1rem; /* Adjust padding for mobile */
+  }
+  
+  .centered {
+      text-align: center; 
+  }
+
+  .centered h1 {
+      font-size: 1.5rem; 
+      color: yellow; 
+  }
+
+  .centered p {
+      font-size: 0.9rem; 
+      margin-top: 1rem;
+  }
+
+  img {
+      width: 100%;
+      height: auto; 
+  }
+}

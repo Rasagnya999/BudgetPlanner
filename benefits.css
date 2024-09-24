@@ -1,0 +1,339 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.sub-nav-bg{
+    background-color: #770181;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.f-all{
+ font-family: 'Montserrat', sans-serif;;
+}
+.nav-link{
+     color: black;
+}
+.nav-link:hover{
+    color: #FF2B51;
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+.benefits{
+    background-image: url(https://img.freepik.com/premium-photo/annual-financial-budget-saving-plan-design-concept-with-laptop-piggy-bank-calculator-notebook_315337-12777.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login:hover{
+    background-color: #770181;
+    color: white;
+}
+/* Custom styling for the section */
+.container-fluid {
+    padding: 50px 0;
+}
+
+.row {
+    margin: 0;
+}
+
+
+.content-wrapper {
+    padding-left: 20px;
+}
+
+
+.testimonial {
+    text-align: center;
+}
+
+.additional-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+}
+.additional-section .additional-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.additional-section h2 {
+    color: #FF2B51; 
+    font-weight: bold; 
+    margin-bottom: 30px;
+}
+.additional-section p {
+    font-size: 18px; 
+    line-height: 1.6;
+    color: #666; 
+    margin-bottom: 20px; 
+}
+.additional-section ul {
+    text-align: left; 
+    padding-left: 20px;
+}
+.additional-section ul li {
+    font-size: 16px; 
+    margin-bottom: 10px;
+}
+.bi {
+    font-size: 1.2rem; 
+    margin-right: 5px;
+}
+.text-success {
+    color: #28a745; 
+}
+.more-benefits-section {
+    background-color: #f8f9fa;
+    padding: 60px 0; 
+}
+
+.more-benefits-section .benefits-content {
+    max-width: 100%;
+}
+
+.more-benefits-section h2 {
+    color: #343a40; 
+}
+
+.more-benefits-section p {
+    color: #6c757d; 
+}
+
+.more-benefits-section .card {
+    border: none;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.more-benefits-section .card:hover {
+    transform: translateY(-5px); 
+}
+
+.more-benefits-section .card-img-top {
+    max-width: 100%; 
+    height: auto;
+}
+
+.more-benefits-section .card-title {
+    color: #343a40; 
+}
+
+.more-benefits-section .card-text {
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .more-benefits-section .card {
+        margin-bottom: 30px; 
+    }
+}
+
+.benefits-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.card:hover {
+    transform: translate(5px);
+}
+
+.card-title {
+    color: #2c3e50;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    .benefits-section {
+        padding: 60px 0;
+    }
+}
+.blinking-section {
+    background: linear-gradient(135deg, #745fff, #feb47b);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.blinking-content {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.now {
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.now:hover {
+    background-color: #db0158;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer-section {
+    background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+  }
+  
+  .footer-top-shape {
+    position: absolute;
+    top: -60px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff00a6;
+    border-radius: 50%;
+    width: 120px; 
+    height: 120px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+.footer-image {
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+}
+  
+.footer-section .container {
+    position: relative;
+    z-index: 2;
+}
+  
+.footer-section .footer-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+  
+.footer-section .footer-description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+  
+.footer-section .footer-text {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+  
+.footer-section .footer-social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+  
+.footer-section .footer-social-icons a:hover {
+    color: #d1c4e9;
+}
+  
+.footer-section .footer-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+  
+.footer-section .footer-links {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-section .footer-links li {
+    margin-bottom: 10px;
+}
+  
+.footer-section .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.footer-section .footer-links a:hover {
+    color: #d1c4e9;
+}
+  
+.footer-section .footer-app-links img {
+    width: 150px;
+    margin-right: 10px;
+}
+  
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .navbar:hover {
+    background-color: #f8f9fa;
+  }
+
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #770181;
+  }
+
+  .btn-primary {
+    background-color: #770181;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .btn-primary:hover {
+    background-color: #FF2B51;
+    color: white;
+  }
+  @media (max-width: 992px) {
+    .navbar-brand {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      text-align: center;
+    }
+
+    .btn-primary {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }

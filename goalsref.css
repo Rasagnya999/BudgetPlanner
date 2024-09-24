@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.sub-nav-bg{
+    background-color: #770181;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.f-all{
+ font-family: 'Montserrat', sans-serif;;
+}
+.nav-link{
+     color: black;
+}
+.nav-link:hover{
+    color: #FF2B51;
+}
+.blink_online_del {
+    animation: blink-animation 1s steps(1, start) infinite;
+    
+}
+.login:hover{
+    background-color: #770181;
+    color: white;
+}
+.footer-section {
+    background: linear-gradient(135deg, #6a1b9a, #8e24aa);
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+  }
+  
+  .footer-top-shape {
+    position: absolute;
+    top: -60px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff00a6;
+    border-radius: 50%;
+    width: 120px; 
+    height: 120px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  
+.footer-image {
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+}
+  
+.footer-section .container {
+    position: relative;
+    z-index: 2;
+}
+  
+.footer-section .footer-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+  
+.footer-section .footer-description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+  
+.footer-section .footer-text {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+  
+.footer-section .footer-social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.5em;
+    transition: color 0.3s;
+}
+  
+.footer-section .footer-social-icons a:hover {
+    color: #d1c4e9;
+}
+  
+.footer-section .footer-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+  
+.footer-section .footer-links {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-section .footer-links li {
+    margin-bottom: 10px;
+}
+  
+.footer-section .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.footer-section .footer-links a:hover {
+    color: #d1c4e9;
+}
+  
+.footer-section .footer-app-links img {
+    width: 150px;
+    margin-right: 10px;
+}
+ 

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planner</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <header class="sub-nav-bg p-1"></header>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="https://cdn-icons-png.flaticon.com/512/1761/1761422.png" alt="Logo" style="width: 40px; height: auto; margin-right: 10px;">
+      <span style="color: #FF2B51; font-family: 'Poppins', sans-serif; font-size: 25px; font-weight: 700;">
+        Budget <span style="color: #770181;">Planner</span>
+      </span>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="index.html" style="color: #FF2B51;">What is Budget Planner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="Resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="benefits.html">Benefits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="Goals.html">Goals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold" href="contact us.html">Contact Us</a>
+        </li>
+      </ul>
+      <button class="btn btn-primary mx-2" style="width: 100px; height: 40px; border-radius: 20px;" data-bs-toggle="modal" data-bs-target="#Login">Login</button>
+        
+      
+    </div>
+  </div>
+</nav>
+
+
+  <section class="hero-sec py-5" style="background: linear-gradient(135deg, #FFDEE9, #B5FFFC);">
+    <div class="container bg-white rounded-4 shadow-lg p-5">
+      <div class="row align-items-center">
+        <div class="col-lg-5 col-md-6 col-sm-12">
+          <div class="about-img mt-4 text-center text-md-start">
+            <h1 class="fs-1 fw-bold hero-h" style="color: #FF2B51; font-family: 'Poppins', sans-serif; font-size: 36px;">
+              What is Budget Planner, and how does it work?
+            </h1>
+            <p class="mt-4 text-secondary" style="font-family: 'Open Sans', sans-serif; font-size: 16px; line-height: 1.7;">
+              Knowledge is power. You have to know your finances to master them. Budget Planner puts all your money in one app, under your control, wherever you may be. Sync automatically with your financial accounts to predict and plan for a richer life, while saving money every day.
+            </p>
+            <div class="d-flex mt-5 justify-content-center justify-content-md-start">
+              <button class="btn btn-light me-3 shadow download-btn" style="border-radius: 50px; padding: 10px 20px; transition: transform 0.3s ease;">
+                <img src="https://wp-endpoint.azureedge.net/wp-content/uploads/2022/05/google-play.svg" alt="Google Play" class="store-img" style="width: 100px;">
+              </button>
+              <button class="btn btn-light shadow download-btn" style="border-radius: 50px; padding: 10px 20px; transition: transform 0.3s ease;">
+                <img src="https://wp-endpoint.azureedge.net/wp-content/uploads/2022/05/app-store.svg" alt="App Store" class="store-img" style="width: 100px;">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-6 col-sm-12 mt-4 mt-md-0">
+          <div class="about-content text-center text-md-end" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/home.png" class="img-fluid rounded-4 shadow-lg hover-scale" style="max-width: 100%; height: auto; max-height: 500px; transition: transform 0.4s ease;" alt="App Preview">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-5 rating" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef);">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 mx-2 shadow-lg h-100" style="border-radius: 15px; transition: transform 0.3s;">
+            <img src="assets/start1.svg" class="card-img-top p-3 p-md-5" alt="All in One Place" style="object-fit: contain;">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">All in One Place</h5>
+              <p class="card-text">Budget Planner can connect with over 15,000 banks and finance providers, giving you a single overview of all your money.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 mx-2 shadow-lg h-100" style="border-radius: 15px; transition: transform 0.3s;">
+            <img src="assets/start2.svg" class="card-img-top p-3 p-md-5" alt="AI Empowered Categories" style="object-fit: contain;">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">AI Empowered Categories</h5>
+              <p class="card-text">Budget Planner automatically categorizes and labels transactions, making your spending easy to organize.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-0 mx-2 shadow-lg h-100" style="border-radius: 15px; transition: transform 0.3s;">
+            <img src="assets/start3.svg" class="card-img-top p-3 p-md-5" alt="Stats: The Big Picture" style="object-fit: contain;">
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Stats: The Big Picture</h5>
+              <p class="card-text">High-level visibility into your current and predicted financial status gives you the chance to lead a richer life.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <a href="#second" class=" d-flex justify-content-center align-items-center mt-0 ">
+    <i class="bi bi-arrow-down-circle-fill fs-1 text-danger "></i>
+    </a>
+    <div class="container p-4 shadow-lg" style="background: linear-gradient(135deg, #dda0dd, #d8bfd8); border-radius: 80px 80px 15px 15px;">
+      <div class="row justify-content-center mb-4">
+        <div class="col-12 col-md-10">
+          <div class="p-4 text-center" style="background-color: #770181; border-radius: 20px; color: white; font-family: 'Poppins', sans-serif;">
+            <h1 class="fw-bold" style="font-size: 28px; line-height: 1.3;">"Budgeting made simple, finances made smart."</h1>
+          </div>
+        </div>
+      </div>
+    
+      <div class="row justify-content-center mt-4">
+        <div class="col-12">
+          <div class="para text-center" id="second">
+            <p class="fs-6 fs-md-5 fw-semibold" style="font-family: 'Open Sans', sans-serif; color: #333; line-height: 1.8; max-width: 900px; margin: 0 auto;">
+              In today's fast-paced world, managing finances can often feel like a daunting task. That's where our budget planner app steps in to revolutionize your financial journey. With intuitive features designed to simplify budgeting, tracking, and planning, our app empowers you to take control of your money like never before.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <section class="hero-3 mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 p-3">
+            <div class="about-img mt-4 text-center text-md-start">
+              <h1 class="fs-2 fs-md-1 fw-bold hero-h" style="color: red; font-size: 36px;">Budget</h1>
+              <p class="mt-3 fw-bold" style="font-size: 16px; color: #333;">Know when your spending is going to plan</p>
+              <a href="budget.html">
+                <button class="btn rounded-2 mt-4 fw-bold" style="background: linear-gradient(135deg, #770181, #A34FBF); color: white; width: 200px; height: 45px; border-radius: 10px; transition: transform 0.3s;">
+                  Read More
+                </button>
+              </a>
+            </div>
+          </div>
+    
+          <div class="col-12 col-md-6 p-3">
+            <div class="d-flex justify-content-center">
+              <img src="assets/iPhone 15 Pro.png" class="img-fluid bimg shadow-lg" style="height: auto; max-height: 400px; border-radius: 20px; object-fit: cover; transition: transform 0.3s;" alt="iPhone">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+<a href="#third" class=" d-flex justify-content-center align-items-center mb-5 ">
+  <i class="bi bi-arrow-down-circle-fill fs-1 text-danger "></i>
+  </a>
+  <section class="Middle-tag py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="text-center">
+            <div class="Middle-tagpara" style="font-size: 24px;">"Plan, Save, Achieve: Let Budget Master Lead the Way!"</div>
+            <div class="Middle-tagpara1 mt-3" style="font-size: 20px;">Know <br> More</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="hero-3 py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 p-3">
+          <div class="d-flex justify-content-center">
+            <img src="assets/start4.png" class="img-fluid bimg shadow-lg" style="border-radius: 20px; transition: transform 0.3s ease;" alt="Expense Tracking">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-3 text-center text-md-start">
+          <h1 class="fs-2 fs-md-1 fw-bold" style="color:#FF2B51;">Expense Tracking</h1>
+          <p class="mt-3 fw-bold" style="font-size: 18px; line-height: 1.6; color: #333;">
+            See and track your expenses in real time.
+          </p>
+          <a href="spending.html">
+            <button class="btn rounded-2 mt-4 fw-bold" style="background: linear-gradient(135deg, #770181, #A34FBF); color: white; width: 200px; height: 45px; border-radius: 10px; transition: transform 0.3s;">
+              Read More
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="hero-3 py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 p-3 text-center text-md-start">
+          <h1 class="fs-2 fs-md-1 fw-bold" style="color:#FF2B51;">Goals</h1>
+          <p class="mt-3 fw-bold" style="font-size: 18px; line-height: 1.6; color: #333;">
+            Plan your goals to control cash flow.
+          </p>
+          <a href="goalsref.html">
+            <button class="btn rounded-2 mt-4 fw-bold" style="background: linear-gradient(135deg, #770181, #A34FBF); color: white; width: 200px; height: 45px; border-radius: 10px; transition: transform 0.3s;">
+              Read More
+            </button>
+          </a>
+        </div>
+        <div class="col-12 col-md-6 p-3">
+          <div class="d-flex justify-content-center">
+            <img src="assets/goals.png" class="img-fluid shadow-lg" style="border-radius: 10px; transition: transform 0.3s ease;" alt="Goals">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="hero-3 py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 p-3">
+          <div class="d-flex justify-content-center">
+            <img src="assets/cashflow.png" class="img-fluid shadow-lg" style="border-radius: 20px; transition: transform 0.3s ease;" alt="Cash Flow">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-3 text-center text-md-start">
+          <h1 class="fs-2 fs-md-1 fw-bold" style="color:#FF2B51;">Cash Flow</h1>
+          <p class="mt-3 fw-bold" style="font-size: 18px; line-height: 1.6; color: #333;">
+            Keep your accounts healthy by analyzing your cash flow in real time.
+          </p>
+          <p class="mt-2" style="font-size: 16px; color: #555;">
+            With instant insights into your expenses and income, you can take control of your budget with ease. Stay ahead with predictive analytics to identify trends in your spending and optimize your savings strategy.
+          </p>
+          <ul class="mt-3" style="font-size: 16px; color: #444;">
+            <li>Real-time updates on your cash inflow and outflow</li>
+            <li>Custom reports to track performance over time</li>
+            <li>Predictive analytics for future expense planning</li>
+            <li>Easy integration with all your bank accounts</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+<a href="#six" class=" d-flex justify-content-center align-items-center mb-5 mt-5 ">
+  <i class="bi bi-arrow-down-circle-fill fs-1 text-danger "></i>
+  </a>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="fourth-section custom-padding">
+          <p class="inner-para">
+            <span class="blinking">"Smart Spending, Brighter Futures with Budget Planner!"</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="informative-section custom-margin">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-8 offset-sm-1 offset-md-2">
+          <h2 class="section-title fw-bold" style="color: #770181;">Why Choose Budget Planner?</h2>
+          <p class="section-content">
+            Budget Planner empowers you to take control of your finances with powerful tools and intuitive features. Whether you're a beginner or a seasoned investor, Budget Planner helps you:
+          </p>
+          <ul class="section-content">
+            <li>Track daily expenses and monitor spending habits.</li>
+            <li>Set achievable savings goals and track progress.</li>
+            <li>Receive timely bill reminders to avoid late payments.</li>
+            <li>Ensure the security of your financial data with advanced encryption.</li>
+            <li>Customize budget categories to suit your lifestyle and financial priorities.</li>
+          </ul>
+          <p class="section-content">
+            Join thousands of users who have transformed their financial management experience. Start today and see the difference for yourself!
+          </p>
+          <a href="/goalsref.html" class="btn btn-primary border-0 mt-3">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="enjoying-section custom-margin">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-8 offset-sm-1 offset-md-2 text-center">
+          <h2 class="section-title" style="color: #FF2B51;">What Users Love About Budget Planner</h2>
+          <p class="section-content">
+            Discover the most enjoyable part of managing your finances with Budget Planner. Our users love the interactive features that make budgeting fun and engaging!
+          </p>
+          <div class="highlight-box">
+            <div class="highlight-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="highlight-title fw-bold" style="color: #FF2B51;">Interactive Savings Goals</h3>
+            <p class="highlight-content">
+              Set and track your savings goals with visual progress bars and motivational milestones that keep you on track and excited about your financial journey.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer-section" id="six">
+    <div class="footer-top-shape">
+      <img src="https://img.freepik.com/free-vector/isometric-family-budget-composition-with-people-counting-money-vector-illustration_1284-80992.jpg" alt="Footer Image" class="footer-image img-fluid">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 mb-4">
+          <h3 class="footer-title">Budget Planner</h3>
+          <p class="footer-description">Budget well. Live life. Do good.</p>
+          <p class="footer-text">
+            A home budget app based on the envelope budget system. Available on the Web, Android, and iPhone. Replace your family budget planner, worksheet, or spreadsheet with software that syncs.
+          </p>
+          <div class="footer-social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-envelope"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <h4 class="footer-subtitle">Explore</h4>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">What You Get</a></li>
+            <li><a href="#">The Budget Planner Way</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Roadmap</a></li>
+            <li><a href="#">Budget Podcast</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <h4 class="footer-subtitle">Get Started</h4>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Log In</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Envelope Budgeting</a></li>
+            <li><a href="#">How to Make a Budget</a></li>
+            <li><a href="#">Online Budget Courses</a></li>
+            <li><a href="#">Budgeting Goals</a></li>
+            <li><a href="#">What is Debt Snowball?</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 mb-4">
+          <h4 class="footer-subtitle">Get Help</h4>
+          <ul class="footer-links list-unstyled">
+            <li><a href="#">User Guide</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">Refunds</a></li>
+            <li><a href="#">How To Videos</a></li>
+            <li><a href="/contact us.html">Contact Us</a></li>
+          </ul>
+          <div class="footer-app-links">
+            <img src="https://wp-endpoint.azureedge.net/wp-content/uploads/2022/05/google-play.svg" alt="Google Play" class="img-fluid">
+            <img src="https://wp-endpoint.azureedge.net/wp-content/uploads/2022/05/app-store.svg" class="mt-2 img-fluid" alt="App Store">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p class="m-auto text-white">© 2024 Designed And Developed By Rasagnya</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis text-white-50 hover-effect" href="#"><i class="bi bi-facebook"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis text-white-50 hover-effect" href="#"><i class="bi bi-twitter"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis text-white-50 hover-effect" href="#"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  
+  
+<!--Modal start-->
+<div class="modal fade" id="Login" tabindex="-1" aria-labelledby="LoginLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <button data-bs-dismiss="modal" class="btn-close" style="position: absolute; right: 0; top: 0;"></button>
+      <div class="modal-header">
+        <h4 class="modal-title text-center">LogIn</h4>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="return loginvalidate()" id="login-form">
+          <div class="form-group mb-4">
+            <input type="text" id="phoneInput" name="phoneInput" class="form-control" placeholder="Phone Number" maxlength="10">
+            <p class="text-danger" id="phoneError"></p>
+          </div>
+          <div class="text-center">
+            <button type="submit" id="getotp"  class="start border-0 w-100 fw-bold" style="border-radius: 50px; height: 40px; background-color: #770181; color: white;">
+              Continue
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> 
+<script src="script.js"></script>
+<!--Modal end-->
+</body>
+</html>

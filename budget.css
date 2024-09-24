@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.sub-nav-bg{
+    background-color: #770181;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.login:hover{
+    background-color: #770181;
+    color: white;
+}
+.navbar {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .navbar:hover {
+    background-color: #f8f9fa;
+  }
+
+  .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #770181;
+  }
+
+  .btn-primary {
+    background-color: #770181;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .btn-primary:hover {
+    background-color: #FF2B51;
+    color: white;
+  }
+  @media (max-width: 992px) {
+    .navbar-brand {
+      text-align: center;
+    }
+
+    .navbar-nav {
+      text-align: center;
+    }
+
+    .btn-primary {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
